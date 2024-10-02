@@ -385,14 +385,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/DestroyShell.cs"
-"Assets/Scripts/Drive.cs"
-"Assets/Scripts/MoveShell.cs"
-"Assets/Scripts/Shell.cs"
 "Assets/Time/Script/FixedUpdateMove.cs"
 "Assets/Time/Script/LateUpdateMove.cs"
 "Assets/Time/Script/SecondsUpdate.cs"
 "Assets/Time/Script/UpdateMove.cs"
+"Assets/Velocity/Scripts/DestroyShell.cs"
+"Assets/Velocity/Scripts/Drive.cs"
+"Assets/Velocity/Scripts/FireShell.cs"
+"Assets/Velocity/Scripts/MoveShell.cs"
+"Assets/Velocity/Scripts/Shell.cs"
 -langversion:9.0
 
 /deterministic
