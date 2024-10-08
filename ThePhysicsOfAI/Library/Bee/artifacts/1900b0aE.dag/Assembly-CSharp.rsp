@@ -389,9 +389,11 @@
 "Assets/Time/Script/LateUpdateMove.cs"
 "Assets/Time/Script/SecondsUpdate.cs"
 "Assets/Time/Script/UpdateMove.cs"
+"Assets/Velocity/Scripts/AIShell.cs"
 "Assets/Velocity/Scripts/DestroyShell.cs"
 "Assets/Velocity/Scripts/Drive.cs"
 "Assets/Velocity/Scripts/FireShell.cs"
+"Assets/Velocity/Scripts/FireShellAI.cs"
 "Assets/Velocity/Scripts/MoveShell.cs"
 "Assets/Velocity/Scripts/Shell.cs"
 -langversion:9.0
