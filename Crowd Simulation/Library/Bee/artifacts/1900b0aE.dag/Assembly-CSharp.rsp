@@ -393,6 +393,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/AIControl.cs"
 "Assets/Scripts/DropCylinder.cs"
+"Assets/Scripts/Flock.cs"
+"Assets/Scripts/FlockManager.cs"
 -langversion:9.0
 
 /deterministic
