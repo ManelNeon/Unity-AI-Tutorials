@@ -387,6 +387,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Bot.cs"
 "Assets/Scripts/Drive.cs"
+"Assets/Scripts/World.cs"
 -langversion:9.0
 
 /deterministic
