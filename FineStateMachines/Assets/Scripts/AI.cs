@@ -9,6 +9,7 @@ public class AI : MonoBehaviour
     Animator animator;
     [SerializeField] Transform player;
     State currentState;
+    public Transform safeSpot;
 
     // Start is called before the first frame update
     void Start()

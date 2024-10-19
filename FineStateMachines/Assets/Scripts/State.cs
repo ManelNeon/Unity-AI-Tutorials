@@ -11,6 +11,7 @@ public class State
         PATROL,
         PURSUE,
         ATTACK,
+        FLEE,
         SLEEP
     };
 
@@ -93,6 +94,19 @@ public class State
 
         return false;
     }
+
+    public bool CanBeScared()
+    {
+        Vector3 direction = player.position - npc.transform.position;
+        float angle = -Vector3.Angle(direction, npc.transform.forward);
+
+        if(direction.magnitude <= 2 && angle < visAngle)
+        {
+            return true;
+        }
+
+        return false;
+    }
 }
 
 public class Idle : State
@@ -158,6 +172,12 @@ public class Patrol : State
 
     public override void Update()
     {
+        if (CanBeScared())
+        {
+            nextState = new Flee(npc, agent, anim, player);
+            stage = EVENT.EXIT;
+        }
+
         if (agent.remainingDistance < 1)
         {
             if(currentIndex >= GameEnviroment.Instance.Checkpoints.Count - 1)
@@ -267,6 +287,45 @@ public class Attack : State
     {
         anim.ResetTrigger("isShooting");
         shoot.Stop();
+        base.Exit();
+    }
+}
+
+public class Flee : State
+{
+    Transform safePlace;
+
+    public Flee(GameObject _npc, NavMeshAgent _agent, Animator _anim, Transform _player)
+                : base(_npc, _agent, _anim, _player)
+    {
+        name = STATE.FLEE;
+        agent.speed = 5;
+        agent.isStopped = false;
+        safePlace = npc.GetComponent<AI>().safeSpot;
+    }
+
+    public override void Enter()
+    {
+        anim.SetTrigger("isRunning");
+        base.Enter();
+    }
+
+    public override void Update()
+    {
+        agent.SetDestination(safePlace.position);
+        if (agent.hasPath)
+        {
+            if(Vector3.Distance(npc.transform.position, safePlace.position) < 3)
+            {
+                nextState = new Idle(npc, agent, anim, player);
+                stage = EVENT.EXIT;
+            }
+        }
+    }
+
+    public override void Exit()
+    {
+        anim.ResetTrigger("isRunning");
         base.Exit();
     }
 }
