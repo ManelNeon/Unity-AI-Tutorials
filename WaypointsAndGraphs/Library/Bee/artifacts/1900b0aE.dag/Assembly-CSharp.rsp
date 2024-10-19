@@ -389,6 +389,7 @@
 "Assets/Graphs/Graph.cs"
 "Assets/Graphs/Node.cs"
 "Assets/Scripts/FollowWaypoint.cs"
+"Assets/Scripts/FollowWP.cs"
 "Assets/Scripts/WaypointDebug.cs"
 "Assets/Scripts/WPManager.cs"
 "Assets/TANKASSETS/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"

@@ -15,7 +15,7 @@ C:/GameDev/UnityProjects/Unity-AI-Tutorials/WaypointsAndGraphs
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58242
+59055
 -job-worker-count
 5
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/GameDev/UnityProjects/Unity-AI-Tutorials/WaypointsAndGraphs
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18620] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 4200821158 [EditorId] 4200821158 [Version] 1048832 [Id] WindowsEditor(7,NeonsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [18620] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 4200821158 [EditorId] 4200821158 [Version] 1048832 [Id] WindowsEditor(7,NeonsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1296] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2826682733 [EditorId] 2826682733 [Version] 1048832 [Id] WindowsEditor(7,NeonsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1296] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2826682733 [EditorId] 2826682733 [Version] 1048832 [Id] WindowsEditor(7,NeonsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.20f1 (0e25a174756c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
@@ -79,43 +79,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004379 seconds.
-- Loaded All Assemblies, in  0.543 seconds
+Registered in 0.003278 seconds.
+- Loaded All Assemblies, in  0.435 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.392 seconds
-Domain Reload Profiling: 930ms
-	BeginReloadAssembly (186ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 754ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (182ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (186ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (157ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (392ms)
+	FinalizeReload (323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (326ms)
+		SetupLoadedEditorAssemblies (264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,247 +126,57 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.090 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.237 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.749 seconds
-Domain Reload Profiling: 1835ms
-	BeginReloadAssembly (509ms)
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 2080ms
+	BeginReloadAssembly (531ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (43ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (475ms)
-		LoadAssemblies (385ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (494ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (241ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (170ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (749ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (518ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3227 unused Assets / (1.0 MB). Loaded Objects now: 3819.
-Memory consumption went from 110.8 MB to 109.8 MB.
-Total: 10.394100 ms (FindLiveObjects: 0.576300 ms CreateObjectMapping: 0.347900 ms MarkObjects: 7.650000 ms  DeleteObjects: 1.818600 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3221 unused Assets / (1.0 MB). Loaded Objects now: 3820.
-Memory consumption went from 102.8 MB to 101.8 MB.
-Total: 6.359900 ms (FindLiveObjects: 0.548800 ms CreateObjectMapping: 0.225100 ms MarkObjects: 4.759100 ms  DeleteObjects: 0.826200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.656 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.635 seconds
-Domain Reload Profiling: 1290ms
-	BeginReloadAssembly (204ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (312ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (136ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (28ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (636ms)
+	FinalizeReload (847ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (409ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (339ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3226 unused Assets / (1.0 MB). Loaded Objects now: 3820.
-Memory consumption went from 105.9 MB to 104.9 MB.
-Total: 7.163100 ms (FindLiveObjects: 0.449800 ms CreateObjectMapping: 0.498000 ms MarkObjects: 5.152700 ms  DeleteObjects: 1.061500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3222 unused Assets / (1.0 MB). Loaded Objects now: 3821.
-Memory consumption went from 106.1 MB to 105.1 MB.
-Total: 6.013400 ms (FindLiveObjects: 0.456200 ms CreateObjectMapping: 0.304200 ms MarkObjects: 4.432100 ms  DeleteObjects: 0.820000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.649 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.695 seconds
-Domain Reload Profiling: 1342ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (324ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (139ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (695ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (374ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3227 unused Assets / (1.1 MB). Loaded Objects now: 3821.
-Memory consumption went from 107.8 MB to 106.7 MB.
-Total: 6.636800 ms (FindLiveObjects: 0.521400 ms CreateObjectMapping: 0.301500 ms MarkObjects: 4.811600 ms  DeleteObjects: 1.001200 ms)
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3231 unused Assets / (1.3 MB). Loaded Objects now: 3823.
+Memory consumption went from 110.7 MB to 109.5 MB.
+Total: 10.409900 ms (FindLiveObjects: 0.589800 ms CreateObjectMapping: 0.664400 ms MarkObjects: 7.232800 ms  DeleteObjects: 1.921600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3822.
-Memory consumption went from 108.0 MB to 107.0 MB.
-Total: 5.661600 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.366500 ms MarkObjects: 4.078400 ms  DeleteObjects: 0.865300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.857 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.395 seconds
-Domain Reload Profiling: 3247ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (322ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (1049ms)
-		LoadAssemblies (731ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (513ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (490ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1396ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (748ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (575ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (448.7 KB). Loaded Objects now: 3822.
-Memory consumption went from 109.7 MB to 109.3 MB.
-Total: 33.709000 ms (FindLiveObjects: 1.202200 ms CreateObjectMapping: 0.979500 ms MarkObjects: 11.006200 ms  DeleteObjects: 20.519200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (370.8 KB). Loaded Objects now: 3822.
-Memory consumption went from 109.9 MB to 109.6 MB.
-Total: 14.533100 ms (FindLiveObjects: 0.680400 ms CreateObjectMapping: 0.947700 ms MarkObjects: 11.186000 ms  DeleteObjects: 1.717400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 745992.136050 seconds.
-  path: Assets/Graphs/Edge.cs
-  artifactKey: Guid(b281cc54d2c875c46bcea6f0ee9a403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Edge.cs using Guid(b281cc54d2c875c46bcea6f0ee9a403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faaf3cd7d242e5d4cc1bb6164fd07261') in 0.0388744 seconds
+  Time since last request: 750160.048267 seconds.
+  path: Assets/Scripts/FollowWP.cs
+  artifactKey: Guid(947e125aa79a65e45a071008a0a4653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FollowWP.cs using Guid(947e125aa79a65e45a071008a0a4653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eb8d6405c3461863bf62c2963ceedf4') in 0.0103468 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
@@ -374,59 +184,59 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.119 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.098 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.774 seconds
-Domain Reload Profiling: 1890ms
-	BeginReloadAssembly (397ms)
+- Finished resetting the current domain, in  1.021 seconds
+Domain Reload Profiling: 2988ms
+	BeginReloadAssembly (305ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (584ms)
-		LoadAssemblies (559ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1411ms)
+		LoadAssemblies (1024ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (275ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (255ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (775ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (19ms)
+			BuildScriptInfoCaches (415ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1021ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (514ms)
+		SetupLoadedEditorAssemblies (695ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (427ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (586ms)
 			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 112.2 MB to 111.1 MB.
-Total: 5.658900 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.194400 ms MarkObjects: 4.157700 ms  DeleteObjects: 0.905800 ms)
+Unloading 3229 unused Assets / (0.6 MB). Loaded Objects now: 3825.
+Memory consumption went from 106.4 MB to 105.8 MB.
+Total: 288.770900 ms (FindLiveObjects: 0.699000 ms CreateObjectMapping: 4.577000 ms MarkObjects: 281.691300 ms  DeleteObjects: 1.802000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 112.4 MB to 111.1 MB.
-Total: 18.446700 ms (FindLiveObjects: 0.825800 ms CreateObjectMapping: 1.619800 ms MarkObjects: 14.055100 ms  DeleteObjects: 1.944100 ms)
+Unloading 3224 unused Assets / (1.6 MB). Loaded Objects now: 3825.
+Memory consumption went from 106.6 MB to 105.0 MB.
+Total: 10.511900 ms (FindLiveObjects: 0.662200 ms CreateObjectMapping: 0.597900 ms MarkObjects: 7.397500 ms  DeleteObjects: 1.852900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -434,59 +244,59 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.736 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.823 seconds
-Domain Reload Profiling: 1556ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1492ms
+	BeginReloadAssembly (223ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (419ms)
-		LoadAssemblies (362ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (400ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (155ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (823ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (115ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (773ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (561ms)
+		SetupLoadedEditorAssemblies (540ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (447ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (1.4 MB). Loaded Objects now: 3824.
-Memory consumption went from 114.1 MB to 112.8 MB.
-Total: 9.818300 ms (FindLiveObjects: 0.643300 ms CreateObjectMapping: 0.439700 ms MarkObjects: 7.417700 ms  DeleteObjects: 1.316200 ms)
+Unloading 3229 unused Assets / (1.4 MB). Loaded Objects now: 3825.
+Memory consumption went from 108.3 MB to 107.0 MB.
+Total: 9.961800 ms (FindLiveObjects: 0.781300 ms CreateObjectMapping: 0.788400 ms MarkObjects: 6.870800 ms  DeleteObjects: 1.519700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 114.3 MB to 113.3 MB.
-Total: 7.668600 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.193000 ms MarkObjects: 6.007300 ms  DeleteObjects: 1.035300 ms)
+Unloading 3224 unused Assets / (1.0 MB). Loaded Objects now: 3825.
+Memory consumption went from 108.5 MB to 107.5 MB.
+Total: 7.091600 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.225700 ms MarkObjects: 5.551400 ms  DeleteObjects: 0.884100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -494,123 +304,49 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.680 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.714 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1332ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1586ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
+		CreateAndSetChildDomain (48ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (367ms)
-		LoadAssemblies (347ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (343ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (129ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (168ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (659ms)
+	FinalizeReload (874ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (643ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.1 MB to 115.0 MB.
-Total: 5.829400 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.218700 ms MarkObjects: 4.395800 ms  DeleteObjects: 0.817400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.2 MB to 115.0 MB.
-Total: 7.782200 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.415800 ms MarkObjects: 5.291500 ms  DeleteObjects: 1.693600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 40.786492 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0792ef31cca99f9eed87e4d8a594d985') in 0.0147546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.7 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.5 MB.
-Total: 10.186000 ms (FindLiveObjects: 0.597200 ms CreateObjectMapping: 0.428400 ms MarkObjects: 6.895500 ms  DeleteObjects: 2.263800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.689189 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '697fa97d9b4ce44f80468555d596ecec') in 0.0041793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.2 MB.
-Total: 7.278500 ms (FindLiveObjects: 0.427500 ms CreateObjectMapping: 0.342700 ms MarkObjects: 5.381500 ms  DeleteObjects: 1.125700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.314846 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91e0d128f825f9a62589d753651f018c') in 0.0031914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.2 MB.
-Total: 6.355000 ms (FindLiveObjects: 0.509900 ms CreateObjectMapping: 0.209100 ms MarkObjects: 4.633900 ms  DeleteObjects: 1.001100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.0 MB.
-Total: 6.453400 ms (FindLiveObjects: 0.457500 ms CreateObjectMapping: 0.371500 ms MarkObjects: 4.502100 ms  DeleteObjects: 1.121000 ms)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 110.2 MB to 109.0 MB.
+Total: 10.034800 ms (FindLiveObjects: 0.520200 ms CreateObjectMapping: 0.749400 ms MarkObjects: 7.326500 ms  DeleteObjects: 1.437600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -618,183 +354,9 @@ Received Prepare
 Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.2 MB.
-Total: 5.978100 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.203200 ms MarkObjects: 4.323200 ms  DeleteObjects: 1.070800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.0 MB.
-Total: 9.820300 ms (FindLiveObjects: 0.609400 ms CreateObjectMapping: 0.293000 ms MarkObjects: 7.491800 ms  DeleteObjects: 1.423400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.2 MB.
-Total: 8.777100 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.427800 ms MarkObjects: 6.025900 ms  DeleteObjects: 1.904400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.587555 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf16eac4487650a3dc2561b6678719d9') in 0.017455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.1 MB.
-Total: 8.228600 ms (FindLiveObjects: 0.634800 ms CreateObjectMapping: 0.851800 ms MarkObjects: 5.655300 ms  DeleteObjects: 1.085700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.595501 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28168ba56db7dcbb74378adc3fed1ba6') in 0.0037592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.1 MB.
-Total: 8.181700 ms (FindLiveObjects: 0.604000 ms CreateObjectMapping: 0.683500 ms MarkObjects: 5.583500 ms  DeleteObjects: 1.309500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.476073 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b9e44188458821d0def64e35f76250') in 0.0035585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.1 MB.
-Total: 8.920400 ms (FindLiveObjects: 0.634800 ms CreateObjectMapping: 0.561900 ms MarkObjects: 5.713000 ms  DeleteObjects: 2.008900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.517350 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14399c5894c836c2a234c92ee928ded7') in 0.0046087 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.9 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.3 MB.
-Total: 8.844500 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.780500 ms MarkObjects: 6.561700 ms  DeleteObjects: 1.038400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.095468 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71bb03fda1caeafbcf39f77907d15837') in 0.0027462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.0 MB.
-Total: 10.545600 ms (FindLiveObjects: 0.824100 ms CreateObjectMapping: 0.586600 ms MarkObjects: 7.623400 ms  DeleteObjects: 1.509500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.339965 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a5ca3590b3ace180a4a40d598676863') in 0.0029217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 114.9 MB.
-Total: 8.445200 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.229400 ms MarkObjects: 6.294500 ms  DeleteObjects: 1.488600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.904082 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb6aebc1a5fdb48825af93b06597f08') in 0.0033081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.0 MB.
-Total: 11.387900 ms (FindLiveObjects: 0.741100 ms CreateObjectMapping: 0.664400 ms MarkObjects: 8.089000 ms  DeleteObjects: 1.892300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.2 MB.
-Total: 10.306900 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.407900 ms MarkObjects: 7.714800 ms  DeleteObjects: 1.738800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.545883 seconds.
-  path: Assets/Graphs/Node.cs
-  artifactKey: Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Node.cs using Guid(9cd2ffdfc2ba168439285fa535c6e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b437646df8d332982bcdd7bed05a6ad') in 0.0050834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 116.3 MB to 115.1 MB.
-Total: 6.804400 ms (FindLiveObjects: 0.375100 ms CreateObjectMapping: 0.331300 ms MarkObjects: 4.860300 ms  DeleteObjects: 1.236600 ms)
+Unloading 3224 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 110.4 MB to 109.1 MB.
+Total: 8.754500 ms (FindLiveObjects: 0.602800 ms CreateObjectMapping: 0.675300 ms MarkObjects: 5.294600 ms  DeleteObjects: 2.180500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -802,821 +364,109 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.720 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.739 seconds
-Domain Reload Profiling: 1457ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (362ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (338ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (134ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (158ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (739ms)
+	FinalizeReload (945ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (503ms)
+		SetupLoadedEditorAssemblies (627ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.0 MB to 117.0 MB.
-Total: 7.343900 ms (FindLiveObjects: 0.518600 ms CreateObjectMapping: 0.246300 ms MarkObjects: 5.580100 ms  DeleteObjects: 0.996800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 7.654500 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.300300 ms MarkObjects: 5.757300 ms  DeleteObjects: 1.133100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.971688 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '767356028aa198f6fb998a9c031589c8') in 0.0070414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 7.675700 ms (FindLiveObjects: 0.486200 ms CreateObjectMapping: 0.486900 ms MarkObjects: 5.602400 ms  DeleteObjects: 1.099100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 7.747200 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.246500 ms MarkObjects: 5.342000 ms  DeleteObjects: 1.686100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.715716 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9be1334f7f107a35b73b48ede575f676') in 0.0048344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 7.757500 ms (FindLiveObjects: 0.486100 ms CreateObjectMapping: 0.422200 ms MarkObjects: 5.195500 ms  DeleteObjects: 1.652400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.705271 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15068767608887afde09959c004b9c1b') in 0.0073206 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 9.938000 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.461500 ms MarkObjects: 7.633000 ms  DeleteObjects: 1.409000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.666412 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a65801fdccf66a520c2115789792ac7') in 0.0038023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.9 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.3 MB.
-Total: 8.830600 ms (FindLiveObjects: 0.747400 ms CreateObjectMapping: 0.595200 ms MarkObjects: 6.542300 ms  DeleteObjects: 0.944500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 6.499700 ms (FindLiveObjects: 0.534700 ms CreateObjectMapping: 0.227500 ms MarkObjects: 4.766500 ms  DeleteObjects: 0.970200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 8.003400 ms (FindLiveObjects: 0.564100 ms CreateObjectMapping: 0.240500 ms MarkObjects: 5.924400 ms  DeleteObjects: 1.272900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 96.230687 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef14d0e0d644aa9bacfa2e1b87e1773') in 0.0057292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 9.401400 ms (FindLiveObjects: 0.688200 ms CreateObjectMapping: 0.846400 ms MarkObjects: 6.294300 ms  DeleteObjects: 1.571100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 117.869365 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87bc6dac9b76495a6f210505b8a3c57') in 0.003438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.535200 ms (FindLiveObjects: 0.487500 ms CreateObjectMapping: 0.812600 ms MarkObjects: 6.958500 ms  DeleteObjects: 1.275200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 48.982478 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131065b8b748dc5ca563eb9b0ed7e5e7') in 0.0026883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.165500 ms (FindLiveObjects: 0.504100 ms CreateObjectMapping: 0.699600 ms MarkObjects: 6.774900 ms  DeleteObjects: 1.185500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.981545 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3189e2caed723d0631213b36695ead2') in 0.0026104 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.9 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.3 MB.
-Total: 9.354200 ms (FindLiveObjects: 0.642800 ms CreateObjectMapping: 0.640300 ms MarkObjects: 6.394900 ms  DeleteObjects: 1.674700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.410823 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ae4ad4097a8d1da8fd31d855a60e28') in 0.0036517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.263700 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.531600 ms MarkObjects: 7.085200 ms  DeleteObjects: 1.195600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 7.891300 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.237700 ms MarkObjects: 6.123800 ms  DeleteObjects: 1.130100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
+		AwakeInstancesAfterBackupRestoration (67ms)
 Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 7.754200 ms (FindLiveObjects: 0.606200 ms CreateObjectMapping: 0.353400 ms MarkObjects: 5.552000 ms  DeleteObjects: 1.241500 ms)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 112.2 MB to 110.9 MB.
+Total: 13.762500 ms (FindLiveObjects: 0.559400 ms CreateObjectMapping: 0.849900 ms MarkObjects: 10.085300 ms  DeleteObjects: 2.265700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.4 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.8 MB.
-Total: 10.221300 ms (FindLiveObjects: 0.582800 ms CreateObjectMapping: 0.617200 ms MarkObjects: 7.345800 ms  DeleteObjects: 1.674200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 10.135200 ms (FindLiveObjects: 0.695400 ms CreateObjectMapping: 0.788100 ms MarkObjects: 7.128200 ms  DeleteObjects: 1.521600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 92.249895 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c3e493fc5eb813153c681c6eb5cfb83') in 0.0127503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 7.811400 ms (FindLiveObjects: 0.579300 ms CreateObjectMapping: 0.284100 ms MarkObjects: 5.407200 ms  DeleteObjects: 1.539600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 8.015500 ms (FindLiveObjects: 0.503100 ms CreateObjectMapping: 0.553600 ms MarkObjects: 5.766300 ms  DeleteObjects: 1.191500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.746324 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dfd824f211d44bc8a552b453849ca61') in 0.0042332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 9.035300 ms (FindLiveObjects: 0.609300 ms CreateObjectMapping: 0.578800 ms MarkObjects: 6.698600 ms  DeleteObjects: 1.146900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 8.861400 ms (FindLiveObjects: 0.688300 ms CreateObjectMapping: 0.792300 ms MarkObjects: 6.166600 ms  DeleteObjects: 1.213000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 30.479750 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69fec4a1f6518b6b97047adcdded5019') in 0.0070344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 8.411100 ms (FindLiveObjects: 0.518500 ms CreateObjectMapping: 0.223000 ms MarkObjects: 6.494800 ms  DeleteObjects: 1.173800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 10.078500 ms (FindLiveObjects: 0.698000 ms CreateObjectMapping: 0.422600 ms MarkObjects: 6.997900 ms  DeleteObjects: 1.958500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.512935 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513493bf5ca60f842b78675b0dd0e561') in 0.0051227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 10.433000 ms (FindLiveObjects: 0.442600 ms CreateObjectMapping: 0.512700 ms MarkObjects: 7.493700 ms  DeleteObjects: 1.982600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.766979 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '025ca76eff968705f68b24f402fff29b') in 0.0026592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 10.018100 ms (FindLiveObjects: 0.762800 ms CreateObjectMapping: 0.600700 ms MarkObjects: 7.389700 ms  DeleteObjects: 1.263000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.216728 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c488d6d7a3236138be75d5bb388212cc') in 0.0031572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.9 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.3 MB.
-Total: 19.242700 ms (FindLiveObjects: 2.128600 ms CreateObjectMapping: 1.456400 ms MarkObjects: 13.945200 ms  DeleteObjects: 1.710900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.291189 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d2b850bbe89c321bdd8a7441d7400e9') in 0.0035971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.9 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.3 MB.
-Total: 23.515200 ms (FindLiveObjects: 1.479500 ms CreateObjectMapping: 8.689000 ms MarkObjects: 11.726700 ms  DeleteObjects: 1.618000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.389384 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d0dfaecd5b618b79772920a40c8b4aa') in 0.0041121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 8.039800 ms (FindLiveObjects: 0.519300 ms CreateObjectMapping: 0.291200 ms MarkObjects: 6.008500 ms  DeleteObjects: 1.219400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 7.435100 ms (FindLiveObjects: 0.468300 ms CreateObjectMapping: 0.220800 ms MarkObjects: 5.586800 ms  DeleteObjects: 1.158000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 71.938064 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b2bf7c6fbbaa700a8be6d71339f869') in 0.0042298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 8.589000 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.450700 ms MarkObjects: 6.618200 ms  DeleteObjects: 1.026800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 9.532500 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.459700 ms MarkObjects: 6.839300 ms  DeleteObjects: 1.708200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.174757 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd824e38df95c20d38a52cde94186df1b') in 0.0042644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 7.737400 ms (FindLiveObjects: 0.578500 ms CreateObjectMapping: 0.420200 ms MarkObjects: 5.450000 ms  DeleteObjects: 1.287700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.619950 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f5039f1e57136d32619649215e6f38d') in 0.0028615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 7.528900 ms (FindLiveObjects: 0.863700 ms CreateObjectMapping: 0.531000 ms MarkObjects: 5.047800 ms  DeleteObjects: 1.085200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 8.176600 ms (FindLiveObjects: 0.713000 ms CreateObjectMapping: 0.426400 ms MarkObjects: 5.888000 ms  DeleteObjects: 1.147300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.436662 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850e128c0c0e0ae3f348dbfa88093686') in 0.0045046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 7.252500 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 0.332900 ms MarkObjects: 5.341000 ms  DeleteObjects: 1.101900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.876216 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb091d657711f2ef1c04d57f3bb0ab16') in 0.0023946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 7.734000 ms (FindLiveObjects: 0.527200 ms CreateObjectMapping: 0.529800 ms MarkObjects: 5.282500 ms  DeleteObjects: 1.392400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.801239 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caa0c9e4900543f31416371d235c7514') in 0.0027662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
 ========================================================================
 Received Prepare
 Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 11.250900 ms (FindLiveObjects: 0.995500 ms CreateObjectMapping: 1.069500 ms MarkObjects: 6.772600 ms  DeleteObjects: 2.411900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.334474 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e61821a9460f87c53e0e36f9f11571ee') in 0.0035998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.861000 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.319900 ms MarkObjects: 7.405300 ms  DeleteObjects: 1.609600 ms)
+Unloading 3224 unused Assets / (1.5 MB). Loaded Objects now: 3825.
+Memory consumption went from 112.4 MB to 110.9 MB.
+Total: 8.365600 ms (FindLiveObjects: 0.639300 ms CreateObjectMapping: 0.462900 ms MarkObjects: 5.284000 ms  DeleteObjects: 1.978400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1937ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (793ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 18.626000 ms (FindLiveObjects: 0.705400 ms CreateObjectMapping: 6.358400 ms MarkObjects: 9.825900 ms  DeleteObjects: 1.735000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 86.193096 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e1d574b650628f328b9e652dfb98ec') in 0.0052261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 8.501000 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.371300 ms MarkObjects: 6.286500 ms  DeleteObjects: 1.263700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 11.563600 ms (FindLiveObjects: 0.794100 ms CreateObjectMapping: 0.811800 ms MarkObjects: 8.083500 ms  DeleteObjects: 1.872500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 10.763400 ms (FindLiveObjects: 0.610500 ms CreateObjectMapping: 0.772000 ms MarkObjects: 7.732000 ms  DeleteObjects: 1.647700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 717.266057 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5eefe14277844c24b5cac12445cf42') in 0.0079584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.558100 ms (FindLiveObjects: 0.833400 ms CreateObjectMapping: 0.713200 ms MarkObjects: 6.478800 ms  DeleteObjects: 1.530700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.8 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.4 MB.
-Total: 7.520300 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.378700 ms MarkObjects: 5.468800 ms  DeleteObjects: 1.098500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.2 MB.
-Total: 8.160600 ms (FindLiveObjects: 0.756400 ms CreateObjectMapping: 0.749400 ms MarkObjects: 5.478600 ms  DeleteObjects: 1.174700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 444.273920 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '891211fad7360dd105e07c997b16d7f1') in 0.0067035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.1 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.099100 ms (FindLiveObjects: 0.537400 ms CreateObjectMapping: 0.374100 ms MarkObjects: 6.941200 ms  DeleteObjects: 1.244500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 17.906800 ms (FindLiveObjects: 0.679600 ms CreateObjectMapping: 1.826000 ms MarkObjects: 11.913100 ms  DeleteObjects: 3.486400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.4 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.8 MB.
-Total: 8.797900 ms (FindLiveObjects: 0.585000 ms CreateObjectMapping: 0.900600 ms MarkObjects: 5.670900 ms  DeleteObjects: 1.640000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.0 MB.
-Total: 14.506700 ms (FindLiveObjects: 1.060200 ms CreateObjectMapping: 1.058400 ms MarkObjects: 10.204700 ms  DeleteObjects: 2.180900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 9.319200 ms (FindLiveObjects: 0.747100 ms CreateObjectMapping: 0.699400 ms MarkObjects: 6.656800 ms  DeleteObjects: 1.214700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 50.950660 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24cdc7cdbb97a6dc3c6771084b0b0a72') in 0.01055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.2 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 9.237500 ms (FindLiveObjects: 0.569400 ms CreateObjectMapping: 0.587900 ms MarkObjects: 6.186100 ms  DeleteObjects: 1.892800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.451221 seconds.
-  path: Assets/Graphs/Graph.cs
-  artifactKey: Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphs/Graph.cs using Guid(c730085efb8a9fd4aa054776cdac5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d901a84bf2f7a6ce654da17e09fe73d') in 0.0028674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (0.8 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.3 MB.
-Total: 5.743300 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.344600 ms  DeleteObjects: 0.754300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.8 MB.
-Total: 9.465500 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.438100 ms MarkObjects: 7.028300 ms  DeleteObjects: 1.372800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.5 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.7 MB.
-Total: 9.033500 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.414500 ms MarkObjects: 6.823100 ms  DeleteObjects: 1.417400 ms)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 114.1 MB to 112.9 MB.
+Total: 6.454600 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.389100 ms MarkObjects: 4.653600 ms  DeleteObjects: 1.063000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1624,19 +474,9 @@ Received Prepare
 Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.3 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 116.9 MB.
-Total: 8.514100 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.185300 ms MarkObjects: 6.617400 ms  DeleteObjects: 1.327100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3223 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 118.2 MB to 117.1 MB.
-Total: 7.408500 ms (FindLiveObjects: 0.529300 ms CreateObjectMapping: 0.216700 ms MarkObjects: 5.707600 ms  DeleteObjects: 0.954300 ms)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 114.3 MB to 113.1 MB.
+Total: 7.324600 ms (FindLiveObjects: 0.445100 ms CreateObjectMapping: 0.520400 ms MarkObjects: 5.181100 ms  DeleteObjects: 1.176600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1644,48 +484,968 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.658 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.859 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.634 seconds
-Domain Reload Profiling: 1289ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 116.0 MB to 114.9 MB.
+Total: 7.773100 ms (FindLiveObjects: 0.526400 ms CreateObjectMapping: 0.498300 ms MarkObjects: 5.732100 ms  DeleteObjects: 1.015400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 116.2 MB to 115.0 MB.
+Total: 7.621600 ms (FindLiveObjects: 0.389000 ms CreateObjectMapping: 0.424000 ms MarkObjects: 5.740800 ms  DeleteObjects: 1.066900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.7 MB). Loaded Objects now: 3825.
+Memory consumption went from 116.2 MB to 114.5 MB.
+Total: 15.871600 ms (FindLiveObjects: 0.764900 ms CreateObjectMapping: 0.726500 ms MarkObjects: 10.470800 ms  DeleteObjects: 3.908200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.708 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1560ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 117.9 MB to 116.8 MB.
+Total: 7.622900 ms (FindLiveObjects: 0.448800 ms CreateObjectMapping: 0.395300 ms MarkObjects: 5.511900 ms  DeleteObjects: 1.265900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 118.1 MB to 116.9 MB.
+Total: 9.084600 ms (FindLiveObjects: 0.457000 ms CreateObjectMapping: 0.518400 ms MarkObjects: 6.828100 ms  DeleteObjects: 1.280000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (195ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 119.8 MB to 118.5 MB.
+Total: 6.412200 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.364300 ms MarkObjects: 4.588600 ms  DeleteObjects: 1.105700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 120.0 MB to 118.9 MB.
+Total: 6.759500 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.216300 ms MarkObjects: 5.023300 ms  DeleteObjects: 1.118700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 1459ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 121.8 MB to 120.7 MB.
+Total: 6.121200 ms (FindLiveObjects: 0.397100 ms CreateObjectMapping: 0.445500 ms MarkObjects: 4.340300 ms  DeleteObjects: 0.937400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 122.0 MB to 120.7 MB.
+Total: 11.428700 ms (FindLiveObjects: 0.730300 ms CreateObjectMapping: 0.816400 ms MarkObjects: 8.532600 ms  DeleteObjects: 1.346800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.790 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling: 1732ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (946ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 123.7 MB to 122.3 MB.
+Total: 11.333100 ms (FindLiveObjects: 0.484200 ms CreateObjectMapping: 0.568500 ms MarkObjects: 8.521100 ms  DeleteObjects: 1.757900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 123.9 MB to 122.7 MB.
+Total: 9.962400 ms (FindLiveObjects: 0.540900 ms CreateObjectMapping: 0.739300 ms MarkObjects: 7.011000 ms  DeleteObjects: 1.669500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (349ms)
-		LoadAssemblies (349ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (411ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (105ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (634ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (621ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (400ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (351ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 125.6 MB to 124.4 MB.
+Total: 7.114100 ms (FindLiveObjects: 0.664600 ms CreateObjectMapping: 0.476100 ms MarkObjects: 4.905100 ms  DeleteObjects: 1.067100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 125.8 MB to 124.7 MB.
+Total: 8.266900 ms (FindLiveObjects: 0.597000 ms CreateObjectMapping: 0.755400 ms MarkObjects: 5.064600 ms  DeleteObjects: 1.848800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1587ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (484ms)
 			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 127.5 MB to 126.3 MB.
+Total: 7.260800 ms (FindLiveObjects: 0.436300 ms CreateObjectMapping: 0.441600 ms MarkObjects: 5.079500 ms  DeleteObjects: 1.301800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 127.7 MB to 126.5 MB.
+Total: 10.515100 ms (FindLiveObjects: 1.307600 ms CreateObjectMapping: 0.698700 ms MarkObjects: 7.002100 ms  DeleteObjects: 1.505500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1522ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 129.4 MB to 128.2 MB.
+Total: 6.728400 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.480000 ms MarkObjects: 4.715500 ms  DeleteObjects: 1.086100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 129.6 MB to 128.3 MB.
+Total: 8.031800 ms (FindLiveObjects: 0.393900 ms CreateObjectMapping: 0.635800 ms MarkObjects: 5.809800 ms  DeleteObjects: 1.191300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.1 MB). Loaded Objects now: 3825.
+Memory consumption went from 131.4 MB to 130.3 MB.
+Total: 6.682800 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.478900 ms MarkObjects: 4.857700 ms  DeleteObjects: 0.993200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 131.6 MB to 130.2 MB.
+Total: 12.400400 ms (FindLiveObjects: 0.668500 ms CreateObjectMapping: 0.627700 ms MarkObjects: 9.057300 ms  DeleteObjects: 2.044200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (491ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3228 unused Assets / (1.0 MB). Loaded Objects now: 3824.
-Memory consumption went from 119.9 MB to 118.9 MB.
-Total: 5.308400 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.175300 ms MarkObjects: 3.961600 ms  DeleteObjects: 0.801500 ms)
+Unloading 3229 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 133.3 MB to 132.0 MB.
+Total: 7.939100 ms (FindLiveObjects: 0.375600 ms CreateObjectMapping: 0.720700 ms MarkObjects: 5.658700 ms  DeleteObjects: 1.183300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.4 MB). Loaded Objects now: 3825.
+Memory consumption went from 133.5 MB to 132.1 MB.
+Total: 14.728800 ms (FindLiveObjects: 1.096900 ms CreateObjectMapping: 1.297500 ms MarkObjects: 10.892900 ms  DeleteObjects: 1.439900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 1859ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 135.2 MB to 134.0 MB.
+Total: 11.126800 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.424200 ms MarkObjects: 8.400300 ms  DeleteObjects: 1.909300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 135.4 MB to 134.2 MB.
+Total: 9.623600 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.890400 ms MarkObjects: 5.843300 ms  DeleteObjects: 2.260000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1289ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.0 MB). Loaded Objects now: 3825.
+Memory consumption went from 137.2 MB to 136.1 MB.
+Total: 5.998600 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.390900 ms MarkObjects: 4.361400 ms  DeleteObjects: 0.881800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.6 MB). Loaded Objects now: 3825.
+Memory consumption went from 137.3 MB to 135.7 MB.
+Total: 10.782200 ms (FindLiveObjects: 1.078600 ms CreateObjectMapping: 0.907800 ms MarkObjects: 6.966500 ms  DeleteObjects: 1.828100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 139.1 MB to 137.8 MB.
+Total: 8.064400 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.569100 ms MarkObjects: 5.677800 ms  DeleteObjects: 1.341800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 139.3 MB to 138.0 MB.
+Total: 6.258700 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.406400 ms MarkObjects: 4.468400 ms  DeleteObjects: 1.039000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.0 MB). Loaded Objects now: 3825.
+Memory consumption went from 141.0 MB to 140.0 MB.
+Total: 6.134900 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.187400 ms MarkObjects: 4.780400 ms  DeleteObjects: 0.772500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.0 MB). Loaded Objects now: 3825.
+Memory consumption went from 141.2 MB to 140.2 MB.
+Total: 7.977300 ms (FindLiveObjects: 0.443100 ms CreateObjectMapping: 0.239700 ms MarkObjects: 5.614400 ms  DeleteObjects: 1.679100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 141.2 MB to 140.1 MB.
+Total: 7.862800 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.532800 ms MarkObjects: 5.478800 ms  DeleteObjects: 1.428200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 142.9 MB to 141.7 MB.
+Total: 8.813600 ms (FindLiveObjects: 0.453200 ms CreateObjectMapping: 0.469900 ms MarkObjects: 6.304900 ms  DeleteObjects: 1.584600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3224 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 143.1 MB to 142.0 MB.
+Total: 8.734900 ms (FindLiveObjects: 0.456000 ms CreateObjectMapping: 0.541600 ms MarkObjects: 6.351700 ms  DeleteObjects: 1.384800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDev\UnityProjects\Unity-AI-Tutorials\WaypointsAndGraphs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3229 unused Assets / (1.2 MB). Loaded Objects now: 3825.
+Memory consumption went from 144.9 MB to 143.7 MB.
+Total: 8.813900 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.635600 ms MarkObjects: 6.421900 ms  DeleteObjects: 1.208600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
