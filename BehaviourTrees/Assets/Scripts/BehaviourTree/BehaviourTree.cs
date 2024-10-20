@@ -14,16 +14,29 @@ public class BehaviourTree : Node
         name = n;
     }
 
+    struct NodeLevel
+    {
+        public int level;
+        public Node node;
+    }
+
     public void PrintTree()
     {
-        Debug.Log(this.name);
-        for(int i = 0; i < children.Count; ++i)
+        string treePrintout = "";
+        Stack<NodeLevel> nodeStack = new Stack<NodeLevel>();
+        Node currentNode = this;
+        nodeStack.Push(new NodeLevel { level = 0, node = currentNode });
+        
+        while(nodeStack.Count != 0)
         {
-            Debug.Log(children[i].name);
-            for(int y = 0; y < children[i].children.Count; ++y)
+            NodeLevel nextNode = nodeStack.Pop();
+            treePrintout += new string ('-', nextNode.level) + nextNode.node.name + "\n";
+            for(int i = nextNode.node.children.Count - 1; i >= 0; i--)
             {
-                Debug.Log(children[i].children[y].name);
+                nodeStack.Push(new NodeLevel { level = nextNode.level + 1, node = nextNode.node.children[i]});
             }
         }
+
+        Debug.Log(treePrintout);
     }
 }
