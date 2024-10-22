@@ -392,6 +392,7 @@
 "Assets/Models/Rotate.cs"
 "Assets/Scripts/BehaviourTree/BehaviourTree.cs"
 "Assets/Scripts/BehaviourTree/Leaf.cs"
+"Assets/Scripts/BehaviourTree/Lock.cs"
 "Assets/Scripts/BehaviourTree/Node.cs"
 "Assets/Scripts/BehaviourTree/RobberBehaviour.cs"
 "Assets/Scripts/BehaviourTree/Selector.cs"
