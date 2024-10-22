@@ -390,6 +390,7 @@
 "Assets/Scripts/BehaviourTree/Leaf.cs"
 "Assets/Scripts/BehaviourTree/Node.cs"
 "Assets/Scripts/BehaviourTree/RobberBehaviour.cs"
+"Assets/Scripts/BehaviourTree/Sequence.cs"
 -langversion:9.0
 
 /deterministic
