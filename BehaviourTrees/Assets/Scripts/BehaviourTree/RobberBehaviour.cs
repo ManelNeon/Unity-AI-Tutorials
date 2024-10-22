@@ -27,6 +27,9 @@ public class RobberBehaviour : MonoBehaviour
 
     Node.Status treeStatus = Node.Status.RUNNING;
 
+    [Range(0, 1000)]
+    public int money = 800;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,7 @@ public class RobberBehaviour : MonoBehaviour
         tree = new BehaviourTree();
         Sequence steal = new Sequence("Steal Something");
         Selector openDoor = new Selector("Open Door");
+        Leaf hasGotMoney = new Leaf("Has Got Money", HasEnoughMoney);
         Leaf goToDoor = new Leaf("Go To Door", GoToDoor);
         Leaf goToFrontDoor = new Leaf("Go To Front Door", GoToFrontDoor);
         Leaf goToDiamond = new Leaf("Go To Diamond", GoToDiamond);
@@ -43,12 +47,20 @@ public class RobberBehaviour : MonoBehaviour
         openDoor.AddChild(goToFrontDoor);
         openDoor.AddChild(goToDoor);
 
+        steal.AddChild(hasGotMoney);
         steal.AddChild(openDoor);
         steal.AddChild(goToDiamond);
         steal.AddChild(goToVan);
         tree.AddChild(steal);
 
         tree.PrintTree();
+    }
+
+    public Node.Status HasEnoughMoney()
+    {
+        if (money >= 500) return Node.Status.FAILURE;
+
+        return Node.Status.SUCCESS;
     }
 
     public Node.Status GoToFrontDoor()
@@ -96,7 +108,14 @@ public class RobberBehaviour : MonoBehaviour
 
     public Node.Status GoToVan()
     {
-        return GoToLocation(van.transform.position);
+        Node.Status s = GoToLocation(van.transform.position);
+        if (s == Node.Status.SUCCESS)
+        {
+            money += 1500000;
+            diamond.SetActive(false);
+        }
+
+        return s;
     }
 
     Node.Status GoToLocation(Vector3 destination)
@@ -124,7 +143,7 @@ public class RobberBehaviour : MonoBehaviour
 
     private void Update()
     {
-        if(treeStatus == Node.Status.RUNNING)
+        if(treeStatus != Node.Status.SUCCESS)
             treeStatus = tree.Process();
     }
 }
