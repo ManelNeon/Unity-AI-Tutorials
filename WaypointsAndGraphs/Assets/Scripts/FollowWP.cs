@@ -22,8 +22,6 @@ public class FollowWP : MonoBehaviour
         wps = wpManager.GetComponent<WPManager>().waypoints;
         g = wpManager.GetComponent<WPManager>().graph;
         currentNode = wps[currentWP];
-
-        Invoke("GoToRuin", 2);
     }
 
     public void GoToCity()
